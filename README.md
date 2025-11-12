@@ -45,3 +45,11 @@ In this project, First you need to download dataset Telco-Customer-churn.csv The
 
 ### Objective:
 Predict the customer likely to be Churn or not by using Gradient Boost Classifier and my target is to find customer to be Churn or Not.
+
+### 🤝 Contact Information
+Contributions are welcome! Feel free to fork this repository and submit pull requests with improvements or additional features.
+
+Premshankar Saini                                                    
+Data Analyst                                
+**LinkedIn Profile:** https://www.linkedin.com/in/premshankar-saini-7331102a1/                                     
+**GitHub Profile:** https://github.com/premshankarsaini
