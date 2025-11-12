@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Customer Churn Prediction</title>
+    <style>
+        body {
+            background-color: powderblue;
+            font-family: Arial, sans-serif;
+        }
+        .form input {
+            background-color: gold;
+            margin: 5px;
+            padding: 5px;
+        }
+        .btn {
+            background-color: red;
+            border: none;
+            color: white;
+            padding: 8px 16px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        h2 {
+            text-align: center;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h2>CUSTOMER CHURN PREDICTION</h2>
+
+    <form action="/" method="POST">
+        <fieldset>
+            <center>
+                <div class="form">
+                    <label>Dependents:</label><br>
+                    <input type="text" name="Dependents"><br>
+
+                    <label>Tenure:</label><br>
+                    <input type="number" name="tenure"><br>
+
+                    <label>OnlineSecurity:</label><br>
+                    <input type="text" name="OnlineSecurity"><br>
+
+                    <label>OnlineBackup:</label><br>
+                    <input type="text" name="OnlineBackup"><br>
+
+                    <label>DeviceProtection:</label><br>
+                    <input type="text" name="DeviceProtection"><br>
+
+                    <label>TechSupport:</label><br>
+                    <input type="text" name="TechSupport"><br>
+
+                    <label>Contract:</label><br>
+                    <input type="text" name="Contract"><br>
+
+                    <label>PaperlessBilling:</label><br>
+                    <input type="text" name="PaperlessBilling"><br>
+
+                    <label>MonthlyCharges:</label><br>
+                    <input type="text" name="MonthlyCharges"><br>
+
+                    <label>TotalCharges:</label><br>
+                    <input type="text" name="TotalCharges"><br>
+
+                    <button type="submit" class="btn">SUBMIT</button>
+                </div>
+            </center>
+        </fieldset>
+    </form>
+
+    <center>
+        {% if op1 %}
+            <h3 style="color:red;">{{ op1 }}</h3>
+            <h4 style="color:green;">{{ op2 }}</h4>
+        {% endif %}
+    </center>
+</body>
+</html>
